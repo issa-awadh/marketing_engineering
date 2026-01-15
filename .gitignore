@@ -29,6 +29,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+dbt-creds.json
 
 # Project Data (generated)
 ad_spend.csv

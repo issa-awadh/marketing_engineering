@@ -1,0 +1,175 @@
+[0m19:06:50.402530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E590E5A3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E592F04280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E592F04070>]}
+
+
+============================== 19:06:50.408003 | b122f993-778a-4449-8ad9-2629c1c4204d ==============================
+[0m19:06:50.408003 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:06:50.410531 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Issah Awadh\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init my_attribution_project', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:06:50.425293 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Issah Awadh\.dbt
+[0m19:06:50.429329 [debug] [MainThread]: Starter project path: C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\include\starter_project
+[0m19:06:50.460306 [info ] [MainThread]: 
+Your new dbt project "my_attribution_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:06:50.460306 [info ] [MainThread]: Setting up your profile.
+[0m19:10:35.053843 [info ] [MainThread]: Profile my_attribution_project written to C:\Users\Issah Awadh\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:10:35.057454 [debug] [MainThread]: Command `dbt init` succeeded at 19:10:35.053843 after 224.76 seconds
+[0m19:10:35.057454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E590E5A3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E59FC0C1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E59FC0C160>]}
+[0m19:10:35.057454 [debug] [MainThread]: Flushing usage events
+[0m19:10:40.874498 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:10:49.785343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC47BFA350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC49C4DB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC49C4DB40>]}
+
+
+============================== 19:10:49.785343 | 91d6e97e-9061-4036-9914-3604e799afbb ==============================
+[0m19:10:49.785343 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:10:49.785343 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Issah Awadh\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:10:49.820020 [info ] [MainThread]: dbt version: 1.11.2
+[0m19:10:49.821030 [info ] [MainThread]: python version: 3.10.19
+[0m19:10:49.821030 [info ] [MainThread]: python path: C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\python.exe
+[0m19:10:49.823225 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:10:54.802431 [info ] [MainThread]: Using profiles dir at C:\Users\Issah Awadh\.dbt
+[0m19:10:54.802431 [info ] [MainThread]: Using profiles.yml file at C:\Users\Issah Awadh\.dbt\profiles.yml
+[0m19:10:54.802431 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Issah Awadh\Documents\Project\Portfolio Projects\marketing_engineering\dbt_project.yml
+[0m19:10:54.802431 [info ] [MainThread]: adapter type: bigquery
+[0m19:10:54.802431 [info ] [MainThread]: adapter version: 1.11.0
+[0m19:10:54.806429 [info ] [MainThread]: Configuration:
+[0m19:10:54.806429 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:10:54.806429 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:10:54.806429 [info ] [MainThread]: Required dependencies:
+[0m19:10:54.809113 [debug] [MainThread]: Executing "git --help"
+[0m19:10:54.884332 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:10:54.884332 [debug] [MainThread]: STDERR: "b''"
+[0m19:10:54.884332 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:10:54.884332 [info ] [MainThread]: Connection:
+[0m19:10:54.884332 [info ] [MainThread]:   method: service-account
+[0m19:10:54.884332 [info ] [MainThread]:   database: marketing-engineering
+[0m19:10:54.884332 [info ] [MainThread]:   execution_project: marketing-engineering
+[0m19:10:54.884332 [info ] [MainThread]:   schema: attribution_dev
+[0m19:10:54.884332 [info ] [MainThread]:   location: EU
+[0m19:10:54.900254 [info ] [MainThread]:   priority: interactive
+[0m19:10:54.901263 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m19:10:54.902302 [info ] [MainThread]:   impersonate_service_account: None
+[0m19:10:54.903189 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m19:10:54.904210 [info ] [MainThread]:   job_retries: 1
+[0m19:10:54.904785 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m19:10:54.904785 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m19:10:54.907102 [info ] [MainThread]:   timeout_seconds: 300
+[0m19:10:54.907102 [info ] [MainThread]:   client_id: None
+[0m19:10:54.907102 [info ] [MainThread]:   token_uri: None
+[0m19:10:54.907102 [info ] [MainThread]:   compute_region: None
+[0m19:10:54.910602 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m19:10:54.910602 [info ] [MainThread]:   gcs_bucket: None
+[0m19:10:54.910602 [info ] [MainThread]:   dataproc_batch: None
+[0m19:10:54.910602 [info ] [MainThread]: Registered adapter: bigquery=1.11.0
+[0m19:10:55.410710 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m19:10:55.410710 [debug] [MainThread]: On debug: select 1 as id
+[0m19:10:55.410710 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:11:35.225148 [error] [MainThread]: Encountered an error:
+
+[0m19:11:35.240518 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\cli\main.py", line 420, in debug
+    results = task.run()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\task\debug.py", line 144, in run
+    connection_status = self.test_connection()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\task\debug.py", line 465, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\task\debug.py", line 443, in attempt_connection
+    adapter.debug_query()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\adapters\bigquery\impl.py", line 1266, in debug_query
+    self.execute("select 1 as id")
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt_common\record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\adapters\base\impl.py", line 461, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\adapters\bigquery\connections.py", line 305, in execute
+    query_job, iterator = self.raw_execute(sql, limit=limit)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\adapters\bigquery\connections.py", line 270, in raw_execute
+    return self._query_and_results(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\dbt\adapters\bigquery\connections.py", line 595, in _query_and_results
+    query_job = client.query(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\bigquery\client.py", line 3590, in query
+    return _job_helpers.query_jobs_insert(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\bigquery\_job_helpers.py", line 205, in query_jobs_insert
+    future = do_query()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\bigquery\_job_helpers.py", line 151, in do_query
+    query_job._begin(retry=retry, timeout=timeout)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\bigquery\job\query.py", line 1465, in _begin
+    super(QueryJob, self)._begin(client=client, retry=retry, timeout=timeout)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\bigquery\job\base.py", line 825, in _begin
+    api_response = client._call_api(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\bigquery\client.py", line 861, in _call_api
+    return call()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\_http\__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\_http\__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\cloud\_http\__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\google\auth\transport\requests.py", line 543, in request
+    response = super(AuthorizedSession, self).request(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\Issah Awadh\anaconda3\envs\marketing_engineering\lib\ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+[0m19:11:35.240518 [debug] [MainThread]: Command `dbt debug` failed at 19:11:35.240518 after 45.56 seconds
+[0m19:11:35.243914 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:11:35.243914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC47BFA350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC56A0C6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC56A0C730>]}
+[0m19:11:35.243914 [debug] [MainThread]: Flushing usage events
+[0m19:11:36.322787 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:20:36.416974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB4BF7690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB137FF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB137CA90>]}
+
+
+============================== 23:20:36.425152 | ffa5a28b-9ceb-4e23-9c4f-9be036a7e2cd ==============================
+[0m23:20:36.425152 [info ] [MainThread]: Running with dbt=1.11.2
+[0m23:20:36.426159 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Issah Awadh\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m23:20:36.426159 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Issah Awadh\Documents\Project\Portfolio Projects\marketing_engineering\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:20:36.427158 [debug] [MainThread]: Command `dbt run` failed at 23:20:36.427158 after 0.11 seconds
+[0m23:20:36.428783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EADE9EED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EADE9ED10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB4B84A50>]}
+[0m23:20:36.428783 [debug] [MainThread]: Flushing usage events
+[0m23:20:38.561873 [debug] [MainThread]: An error was encountered while trying to flush usage events
