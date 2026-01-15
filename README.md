@@ -18,7 +18,6 @@
 *An interactive Streamlit application allowing stakeholders to compare models live.*
 
 ![Dashboard Preview](dashboard_preview.png)
-*(Note: Add your screenshot file named 'dashboard_preview.png' to the repository root)*
 
 ---
 
